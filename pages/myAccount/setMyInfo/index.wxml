@@ -1,0 +1,41 @@
+<view class="page">
+  <view class="page__bd">
+    <view class="weui-cells">
+      <navigator url="/pages/myAccount/setMyInfo/index" class="weui-cell weui-cell_access" hover-class="weui-cell_active">
+        <view class="weui-cell__bd">
+          <image src="../../../images/headImg@2x.png" class="headImg"></image>
+          <text class="myInfo">修改头像</text>
+        </view>
+        <view class="weui-cell__ft weui-cell__ft_in-access"></view>
+      </navigator>
+      <navigator url="" class="weui-cell weui-cell-sm weui-cell_access" hover-class="weui-cell_active">
+        <view class="weui-cell__bd">
+          <text class="weui-title">修改昵称</text>
+          <text class="weui-info">ZoeyChen</text>
+        </view>
+        <view class="weui-cell__ft weui-cell__ft_in-access"></view>
+      </navigator>
+      <navigator url="" class="weui-cell weui-cell-sm weui-cell_access" hover-class="weui-cell_active">
+        <view class="weui-cell__bd">
+         <text class="weui-title">闪火号</text>
+          <text class="weui-info">12500101</text>
+        </view>
+        <view class="weui-cell__ft weui-cell__ft_in-access"></view>
+      </navigator>
+      <navigator url="" class="weui-cell weui-cell-sm weui-cell_access" hover-class="weui-cell_active">
+        <view class="weui-cell__bd">
+          <text class="weui-title">性别</text>
+          <text class="weui-info">女性</text>
+        </view>
+        <view class="weui-cell__ft weui-cell__ft_in-access"></view>
+      </navigator>
+      <navigator url="" class="weui-cell weui-cell-sm weui-cell_access" hover-class="weui-cell_active">
+        <view class="weui-cell__bd">
+          <text class="weui-title">个性签名</text>
+          <text class="weui-info">取是能力；舍是境界</text>
+        </view>
+        <view class="weui-cell__ft weui-cell__ft_in-access"></view>
+      </navigator>
+    </view>
+  </view>
+</view>

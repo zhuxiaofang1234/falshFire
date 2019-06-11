@@ -1,0 +1,25 @@
+<view class="page">
+  <view class="page__bd">
+    <view class="weui-cells">
+      <navigator url="/pages/myAccount/setMyInfo/index" class="weui-cell weui-cell_access" hover-class="weui-cell_active">
+        <view class="weui-cell__bd">
+        <image src="../../images/headImg@2x.png" class="headImg"></image>
+        <text class="myInfo">个人资料</text>
+        </view>
+        <view class="weui-cell__ft weui-cell__ft_in-access"></view>
+      </navigator>
+      <navigator url="" class="weui-cell weui-cell_access" hover-class="weui-cell_active">
+        <view class="weui-cell__bd">账号与安全</view>
+        <view class="weui-cell__ft weui-cell__ft_in-access"></view>
+      </navigator>
+      <navigator url="" class="weui-cell weui-cell_access" hover-class="weui-cell_active">
+        <view class="weui-cell__bd">关于我们</view>
+        <view class="weui-cell__ft weui-cell__ft_in-access"></view>
+      </navigator>
+    </view>
+  </view>
+ 
+  <view class="weui-cells loginOut mt-40 no-bordertop" bindtap="open">
+    安全退出
+  </view>
+</view>

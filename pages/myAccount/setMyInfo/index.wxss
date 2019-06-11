@@ -1,0 +1,81 @@
+/* pages/myAccount/settings.wxss */
+
+page {
+  background: #f9faf9;
+}
+
+.weui-cells:first-child:before {
+  border-top: none;
+}
+
+.weui-cells:last-child:after {
+  border-bottom: none;
+}
+
+.weui-cells.no-bordertop:before {
+  top: 0;
+  border-top: none;
+}
+
+.weui-cells {
+  margin-top: 0;
+}
+
+.weui-cell {
+  padding: 60rpx 40rpx;
+  background: #fff;
+}
+
+.weui-cell.weui-cell-sm {
+  padding-top: 30rpx;
+  padding-bottom: 28rpx;
+}
+
+.weui-cell:before {
+  border-top: 1px solid #edeff3;
+}
+
+.headImg {
+  width: 64rpx;
+  height: 64rpx;
+  border-radius: 50%;
+  vertical-align: middle;
+}
+
+.myInfo {
+  vertical-align: middle;
+  margin-left: 32rpx;
+  color: #929399;
+}
+
+.weui-cell__bd {
+  font-size: 30rpx;
+  font-family: PingFangSC-Medium;
+  font-weight: 500;
+  color: rgba(48, 49, 49, 1);
+  height: 40rpx;
+  line-height: 40rpx;
+}
+
+.loginOut {
+  height: 42rpx;
+  padding: 29rpx;
+  font-size: 30rpx;
+  font-family: PingFangSC-Medium;
+  font-weight: 500;
+  color: rgba(255, 91, 91, 1);
+  line-height: 42rpx;
+  text-align: center;
+}
+
+.weui-title {
+  width: 174rpx;
+  display: inline-block;
+  font-weight: 400;
+  color: #929399;
+}
+
+.weui-info {
+  font-weight: 500;
+  color: rgba(48, 49, 49, 1);
+}

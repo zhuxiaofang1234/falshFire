@@ -1,6 +1,10 @@
 {
   "pages":[
     "pages/index/index",
+    "pages/myAccount/index",
+    "pages/myAccount/settings",
+    "pages/message/index",
+    "pages/myAccount/setMyInfo/index",
     "pages/logs/logs"
   ],
   "window":{
@@ -8,5 +12,25 @@
     "navigationBarBackgroundColor": "#fff",
     "navigationBarTitleText": "WeChat",
     "navigationBarTextStyle":"black"
-  }
+  },
+  "tabBar": {
+    "color": "#6e6d6b",
+    "selectedColor": "#2198f2",
+    "borderStyle": "black",
+    "backgroundColor": "#fff",
+    "list": [
+      {
+        "pagePath": "pages/index/index",
+        "text": "首页"
+      },
+      {
+        "pagePath": "pages/message/index",
+        "text": "消息"
+      },
+      {
+        "pagePath": "pages/myAccount/index",
+        "text": "我的"
+      }
+    ]
+  }  
 }
