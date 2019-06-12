@@ -1,0 +1,13 @@
+<view class="page">
+  <view class="page__bd">
+    <view class="weui-cells no-border">
+      <navigator url="" class="weui-cell weui-cell-sm weui-cell_access" hover-class="weui-cell_active">
+        <view class="weui-cell__bd">
+          <text class="weui-title">手机号</text>
+          <text class="weui-info">132 2560 2410</text>
+        </view>
+        <view class="weui-cell__ft weui-cell__ft_in-access"></view>
+      </navigator>
+    </view>
+  </view>
+</view>

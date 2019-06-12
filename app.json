@@ -5,6 +5,10 @@
     "pages/myAccount/settings",
     "pages/message/index",
     "pages/myAccount/setMyInfo/index",
+    "pages/myAccount/setMyInfo/updateName",
+    "pages/myAccount/setMyInfo/updateAccount",
+    "pages/myAccount/setMyInfo/updateSign",
+    "pages/myAccount/setAccount/index",
     "pages/logs/logs"
   ],
   "window":{

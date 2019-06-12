@@ -1,10 +1,12 @@
-// pages/myAccount/setMyInfo/index.js
+// pages/myAccount/setMyInfo/updateName.js
 Page({
 
   /**
    * 页面的初始数据
    */
   data: {
+    tipsContent:'请设置2-24个字符,不能包括@<>/等无效字符',
+    nickName:'ZoeyChen'
 
   },
 
@@ -61,18 +63,6 @@ Page({
    * 用户点击右上角分享
    */
   onShareAppMessage: function () {
-
-  },
-  //设置性别
-  setSex:function(){
-    wx.showActionSheet({
-      itemList: ['女性','男性'],
-      success: function (res) {
-        if (!res.cancel) {
-          console.log(res.tapIndex)
-        }
-      }
-    });
 
   }
 })

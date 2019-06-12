@@ -1,4 +1,4 @@
-// pages/myAccount/setMyInfo/index.js
+// pages/myAccount/setAccount/index.js
 Page({
 
   /**
@@ -61,18 +61,6 @@ Page({
    * 用户点击右上角分享
    */
   onShareAppMessage: function () {
-
-  },
-  //设置性别
-  setSex:function(){
-    wx.showActionSheet({
-      itemList: ['女性','男性'],
-      success: function (res) {
-        if (!res.cancel) {
-          console.log(res.tapIndex)
-        }
-      }
-    });
 
   }
 })

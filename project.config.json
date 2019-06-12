@@ -37,12 +37,19 @@
 			"list": []
 		},
 		"miniprogram": {
-			"current": 0,
+			"current": 1,
 			"list": [
 				{
 					"id": -1,
 					"name": "settings",
 					"pathName": "pages/myAccount/settings",
+					"query": "",
+					"scene": null
+				},
+				{
+					"id": -1,
+					"name": "updateName",
+					"pathName": "pages/myAccount/setMyInfo/updateName",
 					"scene": null
 				}
 			]

@@ -1,11 +1,13 @@
-// pages/myAccount/setMyInfo/index.js
+// pages/myAccount/setMyInfo/updateAccount.js
 Page({
 
   /**
    * 页面的初始数据
    */
   data: {
-
+    tipsContent:'闪火号是唯一凭证，只能修改一次',
+    flashAccount:'SH12584400',
+    tipscontent2:'6-15个字符，仅可使用英文（必须）、数字、下划线'
   },
 
   /**
@@ -61,18 +63,6 @@ Page({
    * 用户点击右上角分享
    */
   onShareAppMessage: function () {
-
-  },
-  //设置性别
-  setSex:function(){
-    wx.showActionSheet({
-      itemList: ['女性','男性'],
-      success: function (res) {
-        if (!res.cancel) {
-          console.log(res.tapIndex)
-        }
-      }
-    });
 
   }
 })

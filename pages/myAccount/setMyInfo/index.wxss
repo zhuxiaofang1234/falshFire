@@ -53,8 +53,6 @@ page {
   font-family: PingFangSC-Medium;
   font-weight: 500;
   color: rgba(48, 49, 49, 1);
-  height: 40rpx;
-  line-height: 40rpx;
 }
 
 .loginOut {

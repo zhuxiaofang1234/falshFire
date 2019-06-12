@@ -1,11 +1,12 @@
-// pages/myAccount/setMyInfo/index.js
+// pages/myAccount/setMyInfo/updateSign.js
 Page({
 
   /**
    * 页面的初始数据
    */
   data: {
-
+    tipsContent:"有趣的个人介绍会吸引更多粉丝",
+    sign:"取是能力,舍是境界"
   },
 
   /**
@@ -61,18 +62,6 @@ Page({
    * 用户点击右上角分享
    */
   onShareAppMessage: function () {
-
-  },
-  //设置性别
-  setSex:function(){
-    wx.showActionSheet({
-      itemList: ['女性','男性'],
-      success: function (res) {
-        if (!res.cancel) {
-          console.log(res.tapIndex)
-        }
-      }
-    });
 
   }
 })

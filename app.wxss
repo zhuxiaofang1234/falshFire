@@ -1,5 +1,12 @@
 /**app.wxss**/
 @import 'weui.wxss';
+
+page {
+  background: #f9faf9;
+  font-family: PingFangSC-Medium;
+  font-weight: 500;
+}
+
 .container {
   height: 100%;
   display: flex;
@@ -9,6 +16,61 @@
   padding: 200rpx 0;
   box-sizing: border-box;
 }
-.mt-40{
-  margin-top:40rpx !important;
-} 
+
+.mt-40 {
+  margin-top: 40rpx !important;
+}
+
+/*******/
+/* pages/myAccount/setMyInfo/updateName.wxss */
+
+.flash.weui-cells__title {
+  padding: 14rpx 40rpx;
+  margin: 0;
+}
+
+.tipsText {
+  font-size: 24rpx;
+  font-family: PingFangSC-Regular;
+  font-weight: 400;
+  color: rgba(146, 147, 153, 1);
+  line-height: 34rpx;
+}
+
+.weui-cells.no-border:before {
+  top: 0;
+  border-top: 1rpx solid #fff;
+}
+
+.weui-cells.no-border:after {
+  bottom: 0;
+  border-bottom: 1rpx solid #fff;
+}
+
+.input-text {
+  font-size: 30rpx;
+  font-family: PingFangSC-Medium;
+  font-weight: 500;
+  color: rgba(48, 49, 49, 1);
+  padding: 12rpx;
+}
+.btn-wrap{
+  margin-top:60rpx;
+  float:right;
+  margin-right:32rpx;
+  opacity: 0.8;
+}
+
+button.flash-btn {
+  width: 174rpx;
+  height: 64rpx;
+  background: linear-gradient(135deg, rgba(98, 233, 231, 1) 0%, rgba(46, 177, 175, 1) 100%);
+  color:#fff;
+  border-radius: 32rpx;
+  font-size:28rpx;
+  
+}
+button.flash-btn:after{
+  border:none;
+}
+
