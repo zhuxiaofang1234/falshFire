@@ -1,0 +1,24 @@
+/* pages/myAccount/setAccount/bindPhone.wxss */
+
+.icon-phone-wrap {
+  width: 100%;
+  height: 292rpx;
+  justify-content: center;
+  align-items: center;
+  background-color: #fff;
+  margin-bottom:40rpx;
+}
+.icon {
+  width: 96rpx;
+  height: 160rpx;
+  background: linear-gradient(135deg, rgba(98, 233, 231, 1) 0%, rgba(46, 177, 175, 1) 100%);
+}
+button.bind-btn{
+ font-size:30rpx;
+ padding:12rpx;
+}
+button.no-radius{
+  border-radius: 0 !important;
+}
+
+

@@ -1,0 +1,13 @@
+<!--pages/login/login.wxml-->
+<view class="page">
+  <view class="header-section">
+    <view class="flash-icon icon-position"></view>
+  </view>
+  <view class="flash-sign-wrap">
+  <text class="flash-sign">发现小众娱乐</text>
+  </view>
+  <view class="login-btn-wrap">
+  <button class="flash-loginBtn">微信登录</button>
+  </view>
+
+</view>

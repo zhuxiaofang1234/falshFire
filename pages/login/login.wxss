@@ -1,0 +1,38 @@
+/* pages/login/login.wxss */
+
+
+
+.icon-position {
+  position: absolute;
+  top: 286rpx;
+  left: 316rpx;
+}
+
+.flash-sign-wrap {
+  margin-top: 76rpx;
+  text-align: center;
+}
+
+.flash-sign {
+  font-size: 28rpx;
+  font-family: HappyZcool-2016;
+  font-weight: normal;
+  color: rgba(50, 181, 179, 1);
+  line-height: 32rpx;
+}
+.login-btn-wrap{
+  margin-top:198rpx;
+}
+
+.flash-loginBtn {
+  width: 686rpx;
+  background: linear-gradient(135deg, rgba(98, 233, 231, 1) 0%, rgba(46, 177, 175, 1) 100%);
+  border-radius: 50rpx;
+  text-align: center;
+  padding: 30rpx 0;
+  font-size: 30rpx;
+  font-family: PingFangSC-Medium;
+  font-weight: 500;
+  color: rgba(255, 255, 255, 1);
+  line-height: 42rpx;
+}

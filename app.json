@@ -1,15 +1,18 @@
 {
   "pages":[
-    "pages/index/index",
     "pages/myAccount/index",
+    "pages/login/login",
     "pages/myAccount/settings",
+    "pages/index/index",
     "pages/message/index",
     "pages/myAccount/setMyInfo/index",
     "pages/myAccount/setMyInfo/updateName",
     "pages/myAccount/setMyInfo/updateAccount",
     "pages/myAccount/setMyInfo/updateSign",
     "pages/myAccount/setAccount/index",
-    "pages/logs/logs"
+    "pages/myAccount/setAccount/bindPhone",
+    "pages/myAccount/setAccount/verifyPhone",
+    "pages/myAccount/aboutUs"
   ],
   "window":{
     "backgroundTextStyle":"light",

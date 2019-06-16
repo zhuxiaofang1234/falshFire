@@ -1,0 +1,18 @@
+/* pages/myAccount/aboutUs.wxss */
+
+.flash_article_wrap {
+  justify-content: center;
+  align-items: center;
+  padding: 60rpx 0;
+}
+
+.flash_article {
+  padding: 0 40rpx;
+}
+
+.flash_article_p {
+  font-size: 28rpx;
+  color: rgba(146, 147, 153, 1);
+  line-height: 44rpx;
+  margin-bottm:6rpx;
+}

@@ -1,1 +1,148 @@
 /* pages/myAccount/index.wxss */
+
+.headImg-wrap {
+  position: absolute;
+  top: 254rpx;
+  left: 34rpx;
+  width: 120rpx;
+  height: 120rpx;
+  border-radius: 50%;
+  border: 2px solid #fff;
+}
+
+.info-wrap {
+  position: absolute;
+  bottom: -32rpx;
+  right: 32rpx;
+}
+
+.indexImg {
+  display: inline-block;
+  font-size: 0;
+  width: 100%;
+  height: 100%;
+}
+
+.focus-btn-wrap {
+  margin-right: 40rpx;
+  position: relative;
+}
+
+.btn-mask {
+  position: absolute;
+  top: 24rpx;
+  left: 20rpx;
+  width: 154rpx;
+  height: 56rpx;
+  background: rgba(255, 174, 0, 1);
+  border-radius: 32rpx;
+  opacity: 0.5;
+  filter: blur(10px);
+}
+
+.focus-btn {
+  width: 196rpx;
+  height: 72rpx;
+  background: rgba(255, 174, 0, 1);
+  border-radius: 36rpx;
+  text-align: center;
+  font-size: 28rpx;
+  font-family: PingFangSC-Medium;
+  font-weight: 500;
+  color: rgba(255, 255, 255, 1);
+}
+
+.msg {
+  width: 72rpx;
+  height: 72rpx;
+  border-radius: 50%;
+  background: rgba(215, 216, 221, 1);
+}
+
+.main-section {
+  padding: 0 34rpx;
+  margin-top: 44rpx;
+}
+
+.username {
+  margin-bottom: 14rpx;
+  font-size: 36rpx;
+  font-family: Helvetica-Bold;
+  font-weight: bold;
+  color: rgba(48, 49, 49, 1);
+  line-height: 44rpx;
+}
+
+.foucus-wrap:first-child {
+  margin-right: 90rpx;
+}
+
+.foucus-data {
+  width: 240rpx;
+}
+
+.userInfo-left {
+  align-items: center;
+}
+
+.userId {
+  margin-top: 14rpx;
+  margin-bottom: 20rpx;
+}
+
+.num {
+  font-size: 40rpx;
+  font-family: DIN-Medium;
+  font-weight: 500;
+  color: rgba(48, 49, 49, 1);
+  line-height: 48rpx;
+  margin-bottom: 18rpx;
+}
+
+.text {
+  font-size: 22rpx;
+  color: rgba(146, 147, 153, 1);
+  line-height: 32rpx;
+}
+
+.total {
+  position: absolute;
+  right: 0;
+  top: 10rpx;
+  width: 100rpx;
+}
+
+.tab-content {
+  margin-top: 60rpx;
+}
+
+.weui-navbar {
+  border-bottom: 0;
+}
+
+.weui-navbar_item {
+  margin-right: 68rpx;
+}
+
+.weui-navbar_title {
+  font-size: 32rpx;
+  color: rgba(48, 49, 49, 1);
+  line-height: 44rpx;
+  display: inline-block;
+  max-width: 8em;
+  width: auto;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+  word-wrap: normal;
+}
+
+.weui-navbar_title.active {
+  color: #2eb1af;
+}
+
+.weui-tab__panel {
+  padding-top: 30px;
+  overflow: hidden;
+  -webkit-overflow-scrolling: touch;
+}

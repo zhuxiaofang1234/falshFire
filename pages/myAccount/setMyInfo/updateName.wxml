@@ -5,11 +5,12 @@
   <view class="weui-cells no-border weui-cells_after-title">
     <view class="weui-cell weui-cell_input">
       <view class="weui-cell__bd">
-        <input class="weui-input input-text" value="{{nickName}}"/>
+        <input class="weui-input input-text" value="{{nickName}}" />
       </view>
     </view>
   </view>
   <view class="btn-wrap">
-  <button class="flash-btn" size="mini"
-    hover-class="other-button-hover">完成</button></view>
+    <button class="flash-btn" size="mini" hover-class="other-button-hover">完成</button>
+    <view class="flash-btn-mask"></view>
+  </view>
 </view>

@@ -1,0 +1,16 @@
+<view class="page">
+  <view class="flash_article_wrap weui-flex">
+    <view class="flash-icon"></view>
+   
+  </view>
+   <view class="flash_article">
+      <view class="flash_article_p">
+自出生时起我们便不断的在岁月里描绘人生，完美的一幅画只是一种期望游走于梦镜，给我们鼓励，给我们勇气去努力争取人世间美好。面对未知的空白，一筹莫展如炊烟袅袅笼罩在心里，人生的绘笔有点找不到落笔点。
+      </view>
+      <view class="flash_article_p">
+时光牵着手在走在走，目睹了雪山融化绿草出，看过了波光粼粼潮涨潮落，听过了细声绵绵花语鸟歌，踏过了波澜起伏似锦年华
+      </view>
+    </view>
+
+
+</view>

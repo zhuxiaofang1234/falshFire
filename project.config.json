@@ -37,7 +37,7 @@
 			"list": []
 		},
 		"miniprogram": {
-			"current": 1,
+			"current": 3,
 			"list": [
 				{
 					"id": -1,
@@ -50,6 +50,20 @@
 					"id": -1,
 					"name": "updateName",
 					"pathName": "pages/myAccount/setMyInfo/updateName",
+					"query": "",
+					"scene": null
+				},
+				{
+					"id": -1,
+					"name": "verifyPhone",
+					"pathName": "pages/myAccount/setAccount/verifyPhone",
+					"query": "",
+					"scene": null
+				},
+				{
+					"id": -1,
+					"name": "login",
+					"pathName": "pages/login/login",
 					"scene": null
 				}
 			]
