@@ -17,7 +17,6 @@ view {
   flex-direction: column;
   align-items: center;
   justify-content: space-between;
-  padding: 200rpx 0;
   box-sizing: border-box;
 }
 
@@ -137,6 +136,26 @@ button.focus-btn:after, button.flash-btn:after {
   display: inline-block;
   vertical-align: middle;
 }
+
+/*******************navbar导航*******************/
+.weui-navbar {
+  border-bottom: 0;
+}
+
+ .weui-navbar_title{
+  font-size: 32rpx;
+  color: rgba(48, 49, 49, 1);
+  line-height: 44rpx;
+  display: inline-block;
+  max-width: 8em;
+  width: auto;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+  word-wrap: normal;
+}
+
+
 
 
 

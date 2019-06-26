@@ -1,0 +1,62 @@
+<view class="page">
+  <view class="page__bd">
+    <view class="flash-wrap">
+      <view class="flash-item weui-flex">
+        <view class="myfocusImg-wrap">
+          <image class="myfocusImg" src="../../images/headImg.png"></image>
+        </view>
+        <view class="myfocus-info weui-flex__item weui-flex">
+          <view class="user-wrap weui-flex__item">
+            <view class="userName">王小酱</view>
+            <view class="userSign">爱生活，爱分享的王小酱</view>
+          </view>
+          <view class="focus-btn-wrap">
+            <button class="flash-btn1" size="mini" hover-class="other-button-hover" plain="true">已关注</button>
+          </view>
+        </view>
+      </view>
+      <view class="flash-item weui-flex">
+        <view class="myfocusImg-wrap">
+          <image class="myfocusImg" src="../../images/headImg.png"></image>
+        </view>
+        <view class="myfocus-info weui-flex__item weui-flex">
+          <view class="user-wrap weui-flex__item">
+            <view class="userName">王小酱</view>
+            <view class="userSign">爱生活，爱分享的王小酱</view>
+          </view>
+          <view class="focus-btn-wrap">
+            <button class="flash-btn1" size="mini" hover-class="other-button-hover" plain="true">已关注</button>
+          </view>
+        </view>
+      </view>
+      <view class="flash-item weui-flex">
+        <view class="myfocusImg-wrap">
+          <image class="myfocusImg" src="../../images/headImg.png"></image>
+        </view>
+        <view class="myfocus-info weui-flex__item weui-flex">
+          <view class="user-wrap weui-flex__item">
+            <view class="userName">王小酱</view>
+            <view class="userSign">爱生活，爱分享的王小酱</view>
+          </view>
+          <view class="focus-btn-wrap">
+            <button class="flash-btn1 active-btn" size="mini" hover-class="other-button-hover" plain="true">加关注</button>
+          </view>
+        </view>
+      </view>
+      <view class="flash-item weui-flex">
+        <view class="myfocusImg-wrap">
+          <image class="myfocusImg" src="../../images/headImg.png"></image>
+        </view>
+        <view class="myfocus-info weui-flex__item weui-flex">
+          <view class="user-wrap weui-flex__item">
+            <view class="userName">王小酱</view>
+            <view class="userSign">爱生活，爱分享的王小酱</view>
+          </view>
+          <view class="focus-btn-wrap">
+            <button class="flash-btn1" size="mini" hover-class="other-button-hover" plain="true">互相关注</button>
+          </view>
+        </view>
+      </view>
+    </view>
+  </view>
+</view>

@@ -116,9 +116,6 @@
   margin-top: 60rpx;
 }
 
-.weui-navbar {
-  border-bottom: 0;
-}
 
 .weui-navbar_item {
   margin-right: 68rpx;

@@ -1,10 +1,11 @@
 {
-  "pages":[
+  "pages": [
+    "pages/message/index",
     "pages/myAccount/index",
+    "pages/myAccount/myFocus/index",
     "pages/login/login",
     "pages/myAccount/settings",
     "pages/index/index",
-    "pages/message/index",
     "pages/myAccount/setMyInfo/index",
     "pages/myAccount/setMyInfo/updateName",
     "pages/myAccount/setMyInfo/updateAccount",
@@ -12,13 +13,15 @@
     "pages/myAccount/setAccount/index",
     "pages/myAccount/setAccount/bindPhone",
     "pages/myAccount/setAccount/verifyPhone",
-    "pages/myAccount/aboutUs"
+    "pages/myAccount/aboutUs",
+    "pages/myFocus/topic",
+    "pages/myFans/index" 
   ],
-  "window":{
-    "backgroundTextStyle":"light",
+  "window": {
+    "backgroundTextStyle": "light",
     "navigationBarBackgroundColor": "#fff",
     "navigationBarTitleText": "WeChat",
-    "navigationBarTextStyle":"black"
+    "navigationBarTextStyle": "black"
   },
   "tabBar": {
     "color": "#6e6d6b",
@@ -39,5 +42,5 @@
         "text": "我的"
       }
     ]
-  }  
+  }
 }

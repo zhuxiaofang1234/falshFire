@@ -1,0 +1,82 @@
+/* pages/myAccount/myFocus/index.wxss */
+
+.page {
+  background: #fff;
+}
+
+.weui-navbar__title {
+  font-size: 32rpx;
+  color: rgba(146, 147, 153, 1);
+  line-height: 44rpx;
+  letter-spacing: 1px;
+}
+
+.weui-navbar__title.active {
+  font-family: PingFangSC-Medium;
+  font-weight: 500;
+  color: rgba(48, 49, 49, 1);
+}
+
+.flash-wrap {
+  padding-left: 40rpx;
+  margin-top:4rpx;
+}
+
+.myfocus-info {
+  padding: 34rpx 0 52rpx 0;
+  border-bottom: 2rpx solid #edeff3;
+}
+.focus-btn-wrap{
+  margin-right:40rpx;
+}
+
+.userName {
+  font-size: 30rpx;
+  font-family: PingFangSC-Medium;
+  font-weight: 500;
+  color: rgba(48, 49, 49, 1);
+  margin-bottom:20rpx;
+}
+.symbol{
+  display:inline-block;
+  margin-right:16rpx;
+}
+
+.userSign {
+  font-size: 22rpx;
+  color: rgba(146, 147, 153, 1);
+}
+
+.myfocusImg-wrap {
+  width: 64rpx;
+  height: 64rpx;
+  border-radius: 50%;
+  margin-top: 34rpx;
+  margin-right: 20rpx;
+}
+
+.myfocusImg {
+  display: inline-block;
+  font-size: 0;
+  width: 100%;
+  height: 100%;
+}
+
+button.flash-btn1{
+  width: 140rpx;
+  border-radius:32rpx;
+  color: #929399;
+  border: 2rpx solid #929399;
+  padding: 6rpx 0;
+  font-size: 24rpx;
+  font-family: PingFangSC-Medium;
+  font-weight: 500;
+  line-height:34rpx;
+}
+
+.flash-btn1.active-btn{
+  color:rgba(46,177,175,1);
+   border: 2rpx solid rgba(46,177,175,1);
+}
+
+

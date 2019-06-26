@@ -1,1 +1,64 @@
 /* pages/message/index.wxss */
+
+.msg-wrap {
+  text-align: center;
+}
+
+.message-cate {
+  padding: 48rpx 50rpx 60rpx 50rpx;
+  justify-content: space-between;
+  background-color: #fff;
+}
+
+.msg-item {
+  width: 88rpx;
+  height: 88rpx;
+  position: relative;
+  border-radius: 50%;
+}
+
+.msg-tips {
+  position: absolute;
+  left:58rpx;
+  height: 36rpx;
+  border-radius:18rpx;
+  background: rgba(255, 91, 91, 1);
+  font-size: 22rpx;
+  font-family: Helvetica;
+  color: rgba(255, 255, 255, 1);
+  border: 2rpx solid rgba(255, 255, 255, 1);
+  box-sizing: border-box;
+}
+.mulit-tips{
+  padding:5rpx 8rpx;
+  line-height: 26rpx
+}
+.single-tips{
+  width:36rpx;
+  line-height:30rpx;
+}
+
+.msg-label {
+  font-size: 24rpx;
+  font-family: PingFangSC-Medium;
+  font-weight: 500;
+  color: rgba(48, 49, 49, 1);
+  line-height: 34rpx;
+  margin-top: 20rpx;
+}
+
+.bg-green {
+  background-color: #2eb1af;
+}
+
+.bg-blue {
+  background-color: #367aff;
+}
+
+.bg-yellow {
+  background-color: #ffc502;
+}
+
+.bg-purple {
+  background-color: #96f;
+}

@@ -19,5 +19,18 @@ Page({
       sliderOffset: e.currentTarget.offsetLeft,
       activeIndex: e.currentTarget.id
     });
+  },
+
+  //我的关注列表
+  toFocusList:function(){
+    wx.navigateTo({
+      url: '/pages/myAccount/myFocus/index',
+    })
+  },
+  //我的粉丝列表
+  tofansList:function(){
+    wx.navigateTo({
+      url: '/pages/myFans/index',
+    })
   }
 })

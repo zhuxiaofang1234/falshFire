@@ -1,2 +1,24 @@
-<!--pages/message/index.wxml-->
-<text>pages/message/index.wxml</text>
+<view class="page">
+  <view class="message-cate weui-flex">
+    <view class="msg-wrap">
+      <view class="msg-item bg-green"></view>
+      <view class="msg-label">通知</view>
+    </view>
+    <view class="msg-wrap">
+      <view class="msg-item bg-blue">
+      <view class="msg-tips mulit-tips">999+</view>
+      </view>
+      <view class="msg-label">评论</view>
+    </view>
+    <view class="msg-wrap">
+     <view class="msg-item bg-yellow"></view>
+      <view class="msg-label">点赞收藏</view>
+    </view>
+    <view class="msg-wrap">
+     <view class="msg-item bg-purple">
+     <view class="msg-tips single-tips">6</view>
+     </view>
+      <view class="msg-label">粉丝</view>
+    </view>
+  </view>
+</view>
