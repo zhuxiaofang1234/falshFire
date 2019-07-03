@@ -1,6 +1,5 @@
 /**app.wxss**/
 @import 'weui.wxss';
-
 page {
   background: #f9faf9;
   font-family: PingFangSC-Medium;

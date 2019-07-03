@@ -1,26 +1,33 @@
 <view class="page">
   <view class="message-cate weui-flex">
     <view class="msg-wrap">
-      <view class="msg-item bg-green"><text class="iconfont icon-shiliangzhinengduixiang"></text></view>
+      <view class="msg-item bg-green">
+        <text class="iconfont icon-shiliangzhinengduixiang"></text>
+      </view>
       <view class="msg-label">通知</view>
     </view>
     <view class="msg-wrap">
       <view class="msg-item bg-blue">
-        <view class="msg-tips mulit-tips">999+</view>
+        <text class="iconfont icon-pinglun"></text>
+        <view class="msg-tips mulit-tips">99+</view>
       </view>
       <view class="msg-label">评论</view>
     </view>
     <view class="msg-wrap">
-      <view class="msg-item bg-yellow"></view>
+      <view class="msg-item bg-yellow">
+        <text class="iconfont icon-dianzan"></text>
+      </view>
       <view class="msg-label">点赞收藏</view>
     </view>
     <view class="msg-wrap">
       <view class="msg-item bg-purple">
+        <text class="iconfont icon-fensi"></text>
         <view class="msg-tips single-tips">6</view>
       </view>
       <view class="msg-label">粉丝</view>
     </view>
   </view>
+  <view class="division"></view>
   <view class="message-list">
     <view class="flash-item weui-flex">
       <view class="myfocusImg-wrap">
