@@ -1,10 +1,13 @@
 <!--pages/login/login.wxml-->
 <view class="page">
   <view class="header-section">
-    <view class="flash-icon icon-position"></view>
+  <image src="../../images/acount_bg_iphonex@2x.png" style="width:100%;height:100%;"></image>
+    <view class="flash-icon icon-position weui-flex">
+    <image src="../../images/public_logo.png" style="width:80rpx;height:80rpx;"></image>
+    </view>
   </view>
   <view class="flash-sign-wrap">
-  <text class="flash-sign">发现小众娱乐</text>
+    <image src="../../images/account_text@2x.png" style="width:82px;height:13px;"></image>
   </view>
   <view class="login-btn-wrap">
   <button class="flash-loginBtn">微信登录</button>

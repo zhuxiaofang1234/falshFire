@@ -1,11 +1,11 @@
 {
   "pages": [
+    "pages/login/login",
+    "pages/index/index",
     "pages/message/index",
     "pages/myAccount/index",
     "pages/myAccount/myFocus/index",
-    "pages/login/login",
     "pages/myAccount/settings",
-    "pages/index/index",
     "pages/myAccount/setMyInfo/index",
     "pages/myAccount/setMyInfo/updateName",
     "pages/myAccount/setMyInfo/updateAccount",

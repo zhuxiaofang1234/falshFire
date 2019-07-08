@@ -1,7 +1,8 @@
 /* pages/login/login.wxss */
-
-
-
+.img-responsive{
+  width:100%;
+  height:auto;
+}
 .icon-position {
   position: absolute;
   top: 286rpx;
