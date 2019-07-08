@@ -1,6 +1,6 @@
 <view class="page">
   <view class="icon-phone-wrap weui-flex">
-    <view class="icon"></view>
+    <image src="../../../images/setting_phonenum@2x.png" style="width:96rpx;height:160rpx;"></image>
   </view>
   <button bindtap="bindPhone" class="no-radius bind-btn" type="primary">微信用户快速绑定</button>
   <view class="mt-30 text-c text-wrap"><text class="flash-text">手动绑定</text></view>

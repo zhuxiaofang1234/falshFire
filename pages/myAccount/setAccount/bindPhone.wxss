@@ -11,7 +11,7 @@
 .icon {
   width: 96rpx;
   height: 160rpx;
-  background: linear-gradient(135deg, rgba(98, 233, 231, 1) 0%, rgba(46, 177, 175, 1) 100%);
+
 }
 button.bind-btn{
  font-size:30rpx;

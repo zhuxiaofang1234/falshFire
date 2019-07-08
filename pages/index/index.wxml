@@ -1,13 +1,66 @@
-<!--index.wxml-->
-<view class="container">
-  <view class="userinfo">
-    <button wx:if="{{!hasUserInfo && canIUse}}" open-type="getUserInfo" bindgetuserinfo="getUserInfo"> 获取头像昵称 </button>
-    <block wx:else>
-      <image bindtap="bindViewTap" class="userinfo-avatar" src="{{userInfo.avatarUrl}}" mode="cover"></image>
-      <text class="userinfo-nickname">{{userInfo.nickName}}</text>
-    </block>
-  </view>
-  <view class="usermotto">
-    <text class="user-motto">{{motto}}</text>
+<view class="page">
+  <view class="page__bd">
+    <view class="weui-tab">
+      <view class="weui-navbar flash-navbar">
+        <block wx:for="{{tabs}}" wx:key="*this">
+          <view id="{{index}}" class="weui-navbar__item" bindtap="tabClick">
+            <view class="weui-navbar__title {{activeIndex == index ? 'active' : ''}}">{{item}}</view>
+          </view>
+        </block>
+        <view class="weui-navbar__slider" style="left: {{sliderLeft}}px; transform: translateX({{sliderOffset}}px); -webkit-transform: translateX({{sliderOffset}}px);"></view>
+      </view>
+      <view class="weui-tab__panel">
+        <view class="weui-tab__content" hidden="{{activeIndex != 0}}">
+        </view>
+        <view class="weui-tab__content" hidden="{{activeIndex != 1}}">
+          <view class="flash-wrap">
+            <view class="flash-item weui-flex">
+              <view class="myfocus-info weui-flex__item weui-flex">
+                <view class="user-wrap weui-flex__item">
+                  <view class="userName"><text class="symbol">#</text>每日热点</view>
+                  <view class="userSign">4752篇动态,320.2万次流量</view>
+                </view>
+                <view class="focus-btn-wrap">
+                  <button class="flash-btn1" size="mini" hover-class="other-button-hover" plain="true">已关注</button>
+                </view>
+              </view>
+            </view>
+             <view class="flash-item weui-flex">
+              <view class="myfocus-info weui-flex__item weui-flex">
+                <view class="user-wrap weui-flex__item">
+                  <view class="userName"><text class="symbol">#</text>每日热点</view>
+                  <view class="userSign">4752篇动态,320.2万次流量</view>
+                </view>
+                <view class="focus-btn-wrap">
+                  <button class="flash-btn1" size="mini" hover-class="other-button-hover" plain="true">已关注</button>
+                </view>
+              </view>
+            </view>
+             <view class="flash-item weui-flex">
+              <view class="myfocus-info weui-flex__item weui-flex">
+                <view class="user-wrap weui-flex__item">
+                  <view class="userName"><text class="symbol">#</text>每日热点</view>
+                  <view class="userSign">4752篇动态,320.2万次流量</view>
+                </view>
+                <view class="focus-btn-wrap">
+                  <button class="flash-btn1" size="mini" hover-class="other-button-hover" plain="true">已关注</button>
+                </view>
+              </view>
+            </view>
+             <view class="flash-item weui-flex">
+              <view class="myfocus-info weui-flex__item weui-flex">
+                <view class="user-wrap weui-flex__item">
+                  <view class="userName"><text class="symbol">#</text>每日热点</view>
+                  <view class="userSign">4752篇动态,320.2万次流量</view>
+                </view>
+                <view class="focus-btn-wrap">
+                  <button class="flash-btn1" size="mini" hover-class="other-button-hover" plain="true">已关注</button>
+                </view>
+              </view>
+            </view>
+          </view>
+        </view>
+      </view>
+    </view>
   </view>
 </view>

@@ -1,6 +1,8 @@
 <view class="page">
   <view class="flash_article_wrap weui-flex">
-    <view class="flash-icon"></view>
+    <view class="flash-icon  weui-flex">
+      <image src="../../images/public_logo@2x.png" style="width:84rpx;height:84rpx;"></image>
+    </view>
    
   </view>
    <view class="flash_article">

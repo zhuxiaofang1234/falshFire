@@ -24,5 +24,6 @@
   </view>
   <view class="btn-wrap">
     <button class="flash-btn" size="mini" hover-class="other-button-hover">绑定</button>
+    <view class="flash-btn-mask"></view>
   </view>
 </view>
