@@ -7,14 +7,87 @@
             <view class="weui-navbar__title {{activeIndex == index ? 'active' : ''}}">{{item}}</view>
           </view>
         </block>
-         <image src="../../images/public_select@2x.png" class="slider_selected" style="width:37rpx;height:11rpx"></image>
+        <image src="../../images/public_select@2x.png" class="slider_selected" style="width:37rpx;height:11rpx"></image>
       </view>
       <view class="flash-tab__panel">
         <view class="flash-tab__content" hidden="{{activeIndex != 0}}">
-        1111
+          <view class="label-content">
+            <text class="label-item selected">#四坑种草大作战</text>
+            <text class="label-item">#明日之子</text>
+            <text class="label-item">#端午冷门海岛旅游攻略</text>
+            <text class="label-item">#当爸爸听到女儿嫁人的消息</text>
+            <text class="label-item">#为考普通话屏蔽东北室友</text>
+          </view>
+          <view class="note-content">
+            <view class="note-item">
+              <image src="../../images/01.jpg" style="width:332rpx;"></image>
+              <view class="note-info-wrap">
+                <view class="note-info">喜欢你时风好甜,第二季快看邓伦真情表白张....</view>
+                <view class="note-handle weui-flex">
+                  <view>
+                    <image src="../../images/01.jpg" class="note-personImg"></image>
+                    <text class="person-name">果酱点点</text>
+                  </view>
+                  <view>
+                    <image src="../../images/index_praise14x14_selected@2x.png" class="note-good"></image>
+                    <text class="good-num">458</text>
+                  </view>
+                </view>
+              </view>
+            </view>
+            <view class="note-item">
+              <image src="../../images/09.jpg" style="width:332rpx;"></image>
+              <view class="note-info-wrap">
+                <view class="note-info">喜欢你时风好甜,第二季快看邓伦真情表白张....</view>
+                <view class="note-handle weui-flex">
+                  <view>
+                    <image src="../../images/09.jpg" class="note-personImg"></image>
+                    <text class="person-name">果酱点点</text>
+                  </view>
+                  <view>
+                    <image src="../../images/index_praise14x14_selected@2x.png" class="note-good"></image>
+                    <text class="good-num">458</text>
+                  </view>
+                </view>
+              </view>
+            </view>
+            <view class="note-item">
+              <image src="../../images/08.jpg" style="width:332rpx;"></image>
+              <view class="note-info-wrap">
+                <view class="note-info">喜欢你时风好甜</view>
+                <view class="note-handle weui-flex">
+                  <view>
+                    <image src="../../images/08.jpg" class="note-personImg"></image>
+                    <text class="person-name">果酱点点</text>
+                  </view>
+                  <view>
+                    <image src="../../images/index_praise14x14_selected@2x.png" class="note-good"></image>
+                    <text class="good-num">458</text>
+                  </view>
+                </view>
+              </view>
+            </view>
+            <view class="note-item">
+              <image src="../../images/06.jpg" style="width:332rpx;"></image>
+              <view class="note-info-wrap">
+                <view class="note-info">大爱名侦探皮卡丘</view>
+                <view class="note-handle weui-flex">
+                  <view>
+                    <image src="../../images/06.jpg" class="note-personImg"></image>
+                    <text class="person-name single-overFlow">孟钰小猫咪爱吃小鱼</text>
+                  </view>
+                  <view>
+                    <image src="../../images/index_praise14x14_selected@2x.png" class="note-good"></image>
+                    <text class="good-num">458</text>
+                  </view>
+                </view>
+              </view>
+            </view>
+    
+          </view>
         </view>
         <view class="flash-tab__content" hidden="{{activeIndex != 1}}">
-        2222
+          2222
         </view>
       </view>
     </view>

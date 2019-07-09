@@ -18,7 +18,7 @@
   font-family: PingFangSC-Regular;
   font-weight: 400;
   color: rgba(146, 147, 153, 1);
-   letter-spacing: 2px;
+  letter-spacing: 2px;
 }
 
 .weui-navbar__title.active {
@@ -36,4 +36,109 @@
   position: absolute;
   bottom: 0;
   left: 142px;
+}
+
+.label-content {
+  padding-top: 16rpx;
+  overflow:hidden; 
+}
+
+.flash-tab__content {
+  padding: 0 34rpx 0 40rpx;
+}
+
+.label-item {
+  display: inline-block;
+  font-size: 24rpx;
+  color: rgba(97, 98, 101, 1);
+  line-height: 34rpx;
+  background: rgba(237, 239, 242, 1);
+  border-radius: 20rpx;
+  padding: 2rpx 16rpx 4rpx 16rpx;
+  margin-right: 8rpx;
+  margin-top: 12rpx;
+}
+
+.label-item.selected {
+  background-color: #fff;
+  color: rgba(46, 177, 175, 1);
+  border: 1px solid rgba(46, 177, 175, 1);
+}
+
+.note-content {
+  -moz-column-count: 2; /* Firefox */
+  -webkit-column-count: 2; /* Safari 和 Chrome */
+  column-count: 2;
+  -moz-column-gap: 20rpx;
+  -webkit-column-gap: 20rpx;
+  column-gap: 20rpx;
+  width: 100%;
+  margin-top:20rpx;
+}
+
+.note-item {
+  margin-bottom: 20rpx;
+  -moz-page-break-inside: avoid;
+  -webkit-column-break-inside: avoid;
+  break-inside: avoid;
+  background: rgba(255, 255, 255, 1);
+  box-shadow: 0px 12px 24px 0px rgba(48, 49, 49, 0.04);
+  border-radius: 8px;
+}
+
+.note-info-wrap {
+  padding: 20rpx;
+}
+
+.note-info {
+  display: -webkit-box;
+  -webkit-box-orient: vertical;
+  -webkit-line-clamp: 2;
+  overflow: hidden;
+  font-size: 26rpx;
+  font-family: PingFangSC-Medium;
+  font-weight: 500;
+  color: rgba(48, 49, 49, 1);
+  line-height: 36rpx;
+  margin-bottom: 20rpx;
+}
+.note-handle{
+   justify-content: space-between; 
+}
+
+.note-personImg {
+  display: inline-block;
+  vertical-align: middle;
+  width: 36rpx;
+  height: 36rpx;
+  border-radius: 50%;
+  margin-right: 10rpx;
+}
+
+.person-name {
+  display: inline-block;
+  vertical-align: middle;
+  font-size: 22rpx;
+  width:130rpx;
+  font-family: PingFangSC-Regular;
+  color: rgba(146, 147, 153, 1);
+  line-height: 32rpx;
+}
+
+.note-good {
+  width: 24rpx;
+  height: 26rpx;
+  display: inline-block;
+  vertical-align: middle;
+  margin-right: 10rpx;
+}
+
+.good-num {
+  display: inline-block;
+  vertical-align: middle;
+  font-size: 26rpx;
+  font-family: PingFangSC-Regular;
+  font-weight: 400;
+  color: rgba(46, 177, 175, 1);
+  line-height: 36rpx;
 }

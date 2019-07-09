@@ -1,5 +1,6 @@
 /**app.wxss**/
 @import 'weui.wxss';
+
 page {
   background: #f9faf9;
   font-family: PingFangSC-Medium;
@@ -31,20 +32,26 @@ view {
 .mt-30 {
   margin-top: 30rpx !important;
 }
-.mr-100{
-  margin-right:100rpx !important;
+
+.mr-100 {
+  margin-right: 100rpx !important;
 }
 
 .text-c {
   text-align: center;
 }
-.text-r{
-  text-align:right;
+
+.text-r {
+  text-align: right;
 }
 
+/****单行文字溢出*****/
 
-
-/*******/
+.single-overFlow {
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
 
 /* pages/myAccount/setMyInfo/updateName.wxss */
 
@@ -96,8 +103,8 @@ button.flash-btn {
 
 .flash-btn-mask {
   position: absolute;
-  top:16rpx;
-  left:10rpx;
+  top: 16rpx;
+  left: 10rpx;
   width: 154rpx;
   height: 56rpx;
   background: linear-gradient(135deg, rgba(98, 233, 231, 1) 0%, rgba(46, 177, 175, 1) 100%);
@@ -138,11 +145,12 @@ button.focus-btn:after, button.flash-btn:after {
 }
 
 /*******************navbar导航*******************/
+
 .weui-navbar {
   border-bottom: 0;
 }
 
- .weui-navbar_title{
+.weui-navbar_title {
   font-size: 32rpx;
   color: rgba(48, 49, 49, 1);
   line-height: 44rpx;
@@ -154,8 +162,3 @@ button.focus-btn:after, button.flash-btn:after {
   white-space: nowrap;
   word-wrap: normal;
 }
-
-
-
-
-
