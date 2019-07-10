@@ -7,7 +7,9 @@
             <view class="weui-navbar__title {{activeIndex == index ? 'active' : ''}}">{{item}}</view>
           </view>
         </block>
-        <image src="../../images/public_select@2x.png" class="slider_selected" style="width:37rpx;height:11rpx"></image>
+        <image src="../../images/public_select@2x.png" class="slider_selected"
+         style="left:{{sliderLeft}}px; transform: translateX({{sliderOffset}}px); -webkit-transform: translateX({{sliderOffset}}px);"
+        ></image>
       </view>
       <view class="flash-tab__panel">
         <view class="flash-tab__content" hidden="{{activeIndex != 0}}">
@@ -92,4 +94,5 @@
       </view>
     </view>
   </view>
+  <view></view>
 </view>
