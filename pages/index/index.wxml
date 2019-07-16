@@ -1,10 +1,15 @@
 <view class="page">
-  <view class="page__bd">
+<view class="nav" style='height:{{navH}}px'>
+  <image src="../../images/public_search@2x.png" class="search_icon"></image>
+  <view class="title_text">闪火</view>
+</view>
+  <view class="page__bd" style="margin-top:{{navH}}px">
     <view class="flash-tab">
       <view class="flash-navbar">
         <block wx:for="{{tabs}}" wx:key="*this">
           <view id="{{index}}" class="flash-navbar__item" bindtap="tabClick">
-            <view class="weui-navbar__title {{activeIndex == index ? 'active' : ''}}">{{item}}</view>
+            <view class="weui-navbar__title inline {{activeIndex == index ? 'active' : ''}}">{{item}}</view>
+            <image class="arrow_down inline" src="../../images/public_navmore@2x.png" wx:if="{{index==0}}" hidden="{{arrowShow}}"></image>
           </view>
         </block>
         <image src="../../images/public_select@2x.png" class="slider_selected"
