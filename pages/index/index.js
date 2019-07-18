@@ -1,4 +1,4 @@
-var sliderWidth = 18; // 需要设置slider的宽度，用于计算中间位置
+var sliderWidth = 36; // 需要设置slider的宽度，用于计算中间位置
 const App = getApp();
 
 Page({
@@ -15,19 +15,21 @@ Page({
       navH: App.globalData.navHeight
     });
 
-     
     //设置滑块
-    this.setData({
-      sliderLeft:(36 - sliderWidth) / 2,
-      sliderOffset:122
-    });
-    
+    var query = wx.createSelectorQuery();
+    query.select('#first_nav').boundingClientRect();
+    query.exec(function (res) {
+      that.setData({
+        sliderLeft: (72 - sliderWidth) / 2,
+        sliderOffset: res[0].left
+      });
+    });   
   },
+
   tabClick: function (e) {
-    //console.log(e.currentTarget.offsetLeft);
     this.setData({
       sliderOffset: e.currentTarget.offsetLeft,
-      activeIndex: e.currentTarget.id
+      activeIndex: e.currentTarget.dataset.index
     });
   }
 });
