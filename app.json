@@ -15,7 +15,8 @@
     "pages/myAccount/setAccount/verifyPhone",
     "pages/myAccount/aboutUs",
     "pages/myFocus/topic",
-    "pages/myFans/index"
+    "pages/myFans/index",
+    "pages/search/index"
   ],
   "window": {
     "backgroundTextStyle": "light",

@@ -59,10 +59,13 @@
   background-color: #fff;
 }
 
-.search_icon {
+.search-wrap{
   position: absolute;
   top: 62rpx;
   left: 34rpx;
+}
+
+.search_icon {
   width: 31rpx;
   height: 32rpx;
 }

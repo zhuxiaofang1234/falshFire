@@ -31,5 +31,12 @@ Page({
       sliderOffset: e.currentTarget.offsetLeft,
       activeIndex: e.currentTarget.dataset.index
     });
+  },
+  //搜索
+  toSearch:function(e){
+    console.log(233);
+    wx.navigateTo({
+      url: '/pages/search/index',
+    })
   }
 });
