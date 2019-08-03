@@ -1,0 +1,42 @@
+<view class="page">
+  <view class="page__bd content-wrap">
+    <view class="search_form weui-flex">
+      <view class="search-bar-box weui-flex__item">
+        <icon class="iconfont icon-sousuo" size="14"></icon>
+        <input type="text" class="search-bar_input" placeholder="明星、热点"></input>
+      </view>
+      <view class="search_btn">搜索</view>
+    </view>
+    <view class="serach-wrap" hidden="{{true}}">
+      <view class="serach-title">
+        <text class="flash-text">搜索历史</text>
+        <text class="iconfont icon-iconset0212 icon-delete"></text>
+      </view>
+      <view class="search-content">
+        <text class="search-item">明日</text>
+        <text class="search-item">端午去哪里</text>
+        <text class="search-item">易烊千玺</text>
+      </view>
+    </view>
+    <view class="serach-wrap" hidden="{{true}}">
+      <view class="serach-title">
+        <text class="flash-text">热门搜索</text>
+      </view>
+      <view class="search-content">
+        <text class="search-item">这就是街舞第二季</text>
+        <text class="search-item">端午去哪里</text>
+        <text class="search-item">向往的生活</text>
+        <text class="search-item">这就是街舞第二季</text>
+        <text class="search-item">端午去哪里</text>
+        <text class="search-item">向往的生活</text>
+      </view>
+    </view>
+    <!--没有搜索结果-->
+    <view class="no-search-content weui-flex">
+      <view class="noSearch-wrap">
+        <image src="../../images/public_searchnone@2x.png"  class="responsive-img"></image>
+      </view>
+      <view class="tips-text">哎呀！没有你要的结果</view>
+    </view>
+  </view>
+</view>
