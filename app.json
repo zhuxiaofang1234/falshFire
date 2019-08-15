@@ -3,6 +3,7 @@
     "pages/login/login",
     "pages/index/index",
     "pages/message/index",
+    "pages/comment/index",
     "pages/myAccount/index",
     "pages/myAccount/myFocus/index",
     "pages/myAccount/settings",

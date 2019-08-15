@@ -7,7 +7,7 @@
       <view class="msg-label">通知</view>
     </view>
     <view class="msg-wrap">
-      <view class="msg-item bg-blue">
+      <view class="msg-item bg-blue" bindtap="toComment">
         <text class="iconfont icon-pinglun"></text>
         <view class="msg-tips mulit-tips">99+</view>
       </view>
