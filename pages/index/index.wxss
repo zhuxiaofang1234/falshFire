@@ -59,7 +59,7 @@
   background-color: #fff;
 }
 
-.search-wrap{
+.search-wrap {
   position: absolute;
   top: 62rpx;
   left: 34rpx;
@@ -136,6 +136,13 @@
   background: rgba(255, 255, 255, 1);
   box-shadow: 0px 12px 24px 0px rgba(48, 49, 49, 0.04);
   border-radius: 8px;
+}
+
+.img-item {
+  width: 100%;
+  vertical-align: middle;
+  border-top-left-radius: 8px;
+  border-top-right-radius: 8px;
 }
 
 .note-info-wrap {

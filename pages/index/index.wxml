@@ -27,7 +27,7 @@
           </view>
           <view class="note-content">
             <view class="note-item">
-              <image src="../../images/01.jpg" style="width:332rpx;"></image>
+              <image src="../../images/01.jpg"  mode="widthFix" class="img-item"></image>
               <view class="note-info-wrap">
                 <view class="note-info">喜欢你时风好甜,第二季快看邓伦真情表白张....</view>
                 <view class="note-handle weui-flex">
@@ -43,7 +43,7 @@
               </view>
             </view>
             <view class="note-item">
-              <image src="../../images/09.jpg" style="width:332rpx;"></image>
+              <image src="../../images/09.jpg"  mode="widthFix" class="img-item"></image>
               <view class="note-info-wrap">
                 <view class="note-info">喜欢你时风好甜,第二季快看邓伦真情表白张....</view>
                 <view class="note-handle weui-flex">
@@ -59,7 +59,7 @@
               </view>
             </view>
             <view class="note-item">
-              <image src="../../images/08.jpg" style="width:332rpx;"></image>
+              <image src="../../images/08.jpg" mode="widthFix" class="img-item"></image>
               <view class="note-info-wrap">
                 <view class="note-info">喜欢你时风好甜</view>
                 <view class="note-handle weui-flex">
@@ -75,7 +75,7 @@
               </view>
             </view>
             <view class="note-item">
-              <image src="../../images/06.jpg" style="width:332rpx;"></image>
+              <image src="../../images/06.jpg" mode="widthFix" class="img-item"></image>
               <view class="note-info-wrap">
                 <view class="note-info">大爱名侦探皮卡丘</view>
                 <view class="note-handle weui-flex">
