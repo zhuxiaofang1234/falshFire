@@ -1,0 +1,67 @@
+<view class="page">
+  <view class="page__bd">
+    <view class="commentList">
+      <view class="flash-item weui-flex">
+        <view class="myfocusImg-wrap">
+          <image class="myfocusImg" src="../../images/headImg.png"></image>
+        </view>
+        <view class="message-info weui-flex__item weui-flex">
+          <view class="user-wrap weui-flex__item">
+            <view class="userName">彼岸</view>
+            <view class="user-messages">龙是很爱龙妈的，跟随她征战四方，经受无数刀光剑影，出生入死，没有任何犹豫。</view>
+            <view class="comment-handle weui-flex">
+              <text class="comment-time sm-text mr-40">刚刚</text>
+              <text class="reply sm-text mr-40">回复</text>
+              <image src="../../images/index_praise14x14_selected@2x.png" class="note-good"></image>
+              <text class="good-num">458</text>
+            </view>
+          </view>
+          <view class="commentPic-wrap">
+            <image src="../../images/01.jpg" class="myfocusImg"></image>
+          </view>
+        </view>
+      </view>
+      <view class="flash-item weui-flex">
+        <view class="myfocusImg-wrap">
+          <image class="myfocusImg" src="../../images/headImg.png"></image>
+        </view>
+        <view class="message-info weui-flex__item weui-flex">
+          <view class="user-wrap weui-flex__item">
+            <view class="userName">盖茨比</view>
+            <view class="user-messages">虽然龙的智商很高，但是刺杀事件突然。</view>
+            <view class="comment-handle weui-flex">
+              <text class="comment-time sm-text mr-40">5分钟前</text>
+              <text class="reply sm-text mr-40">回复</text>
+              <image src="../../images/index_praise14x14_selected@2x.png" class="note-good"></image>
+              <text class="good-num">458</text>
+            </view>
+          </view>
+          <view class="commentPic-wrap">
+            <image src="../../images/01.jpg" class="myfocusImg"></image>
+          </view>
+        </view>
+      </view>
+      <view class="flash-item weui-flex">
+        <view class="myfocusImg-wrap">
+          <image class="myfocusImg" src="../../images/headImg.png"></image>
+        </view>
+        <view class="message-info weui-flex__item weui-flex">
+          <view class="user-wrap weui-flex__item">
+            <view class="userName">彼岸</view>
+            <view class="user-messages">雪诺是坦格利家族的后代，龙的传人，不焚者，与龙妈是一个血统。</view>
+            <view class="comment-handle weui-flex">
+              <text class="comment-time sm-text mr-40">05/25 14:22</text>
+              <text class="reply sm-text mr-40">回复</text>
+              <image src="../../images/index_praise14x14_selected@2x.png" class="note-good"></image>
+              <text class="good-num">458</text>
+            </view>
+          </view>
+          <view class="commentPic-wrap">
+            <image src="../../images/01.jpg" class="myfocusImg"></image>
+          </view>
+        </view>
+      </view>
+    </view>
+    <view class="comment_more">查看更早的消息</view>
+  </view>
+</view>

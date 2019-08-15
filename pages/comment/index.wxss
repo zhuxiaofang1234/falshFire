@@ -1,0 +1,114 @@
+page {
+  background-color: #fff;
+}
+
+.commentList {
+  margin-top: 10rpx;
+}
+
+.flash-item {
+  padding-left: 40rpx;
+  background-color: #fff;
+}
+
+.flash-item:last-child {
+  border-bottom: 2rpx solid #edeff3;
+}
+
+.flash-item:last-child .message-info {
+  border-bottom: none;
+}
+
+.message-info {
+  padding: 38rpx 40rpx 40rpx 0;
+  border-bottom: 2rpx solid #edeff3;
+}
+
+.user-wrap {
+  margin-right: 24rpx;
+}
+
+.userName {
+  font-size: 30rpx;
+  font-family: PingFangSC-Medium;
+  font-weight: 500;
+  color: rgba(48, 49, 49, 1);
+  margin-bottom: 14rpx;
+}
+
+.symbol {
+  display: inline-block;
+  margin-right: 16rpx;
+}
+
+.user-messages {
+  font-size: 26rpx;
+  font-family: PingFangSC-Regular;
+  font-weight: 400;
+  color: rgba(48, 49, 49, 1);
+  line-height: 36rpx;
+}
+
+.myfocusImg-wrap {
+  width: 64rpx;
+  height: 64rpx;
+  border-radius: 50%;
+  margin-top: 34rpx;
+  margin-right: 20rpx;
+}
+
+.myfocusImg {
+  display: inline-block;
+  font-size: 0;
+  width: 100%;
+  height: 100%;
+}
+
+.commentPic-wrap .myfocusImg {
+  border-radius: 18rpx;
+}
+
+.commentPic-wrap {
+  width: 96rpx;
+  height: 96rpx;
+  border-radius: 18rpx;
+}
+
+.comment-handle {
+  margin-top: 14rpx;
+}
+
+.note-good {
+  width: 24rpx;
+  height: 26rpx;
+  display: inline-block;
+  vertical-align: middle;
+  margin-right: 10rpx;
+}
+
+.good-num {
+  display: inline-block;
+  vertical-align: middle;
+  font-size: 26rpx;
+  font-family: PingFangSC-Regular;
+  font-weight: 400;
+  color: rgba(46, 177, 175, 1);
+}
+
+.sm-text {
+  display: inline-block;
+  vertical-align: middle;
+  font-size: 22rpx;
+  margin-top: 4rpx;
+  font-family: PingFangSC-Regular;
+  font-weight: 400;
+  color: rgba(146, 147, 153, 1);
+}
+
+.comment_more {
+  font-size: 26rpx;
+  color: rgba(146, 147, 153, 1);
+  line-height: 36rpx;
+  text-align: center;
+  padding:32rpx 0;
+}
