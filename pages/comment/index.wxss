@@ -52,7 +52,6 @@ page {
 .myfocusImg-wrap {
   width: 64rpx;
   height: 64rpx;
-  border-radius: 50%;
   margin-top: 34rpx;
   margin-right: 20rpx;
 }

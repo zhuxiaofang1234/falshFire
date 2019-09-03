@@ -28,6 +28,9 @@ view {
 .mt-40 {
   margin-top: 40rpx !important;
 }
+.mr-40{
+  margin-right:40rpx !important;
+}
 
 .mt-30 {
   margin-top: 30rpx !important;
