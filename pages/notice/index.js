@@ -1,4 +1,4 @@
-// pages/message/index.js
+// pages/notice/index.js
 Page({
 
   /**
@@ -62,29 +62,5 @@ Page({
    */
   onShareAppMessage: function () {
 
-  },
-  toComment:function(){
-    wx.navigateTo({
-      url: '/pages/comment/index',
-    })
-  },
-  toNotice:function(){
-    wx.navigateTo({
-      url: '/pages/notice/index',
-    })
-  },
-
-  //点赞与收藏
-  toCollection:function(){
-    wx.navigateTo({
-      url: '/pages/collection/index',
-    })
-  },
-
-  //新增粉丝
-  toNewFans:function(){
-    wx.navigateTo({
-      url: '/pages/newFans/index',
-    })
   }
 })

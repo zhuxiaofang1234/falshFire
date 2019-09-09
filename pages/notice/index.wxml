@@ -1,0 +1,33 @@
+<view class="page">
+  <view class="page__bd">
+    <view class="commentList">
+      <view class="notice-wrap weui-flex">
+        <view class="myfocusImg-wrap">
+          <image class="myfocusImg" src="../../images/public_logo.png"></image>
+        </view>
+        <view class="weui-flex__item">
+          <view class="notice-title">你的动态违反了社区规范，请尽快修正</view>
+          <view class="notice-time">刚刚</view>
+          <view class="notice-content">亲爱的用户，非常感谢你分享动态，但是你在2019/05/20 14:15发布的动态《雪诺杀死龙妈，卓耿为什么不杀雪诺？》中含有侵害知识产权的图片。相关违规内容将被系统限制曝光，请尽快修正，如有任何疑问，请联系客服！</view>
+        </view>
+      </view>
+       <view class="notice-wrap weui-flex">
+        <view class="myfocusImg-wrap">
+          <image class="myfocusImg" src="../../images/public_logo.png"></image>
+        </view>
+        <view class="weui-flex__item">
+          <view class="notice-title">看到你发布了你的第一篇动态啦！小编教你如何发布优质动态！</view>
+          <view class="notice-time">昨天 12:33</view>
+          <view class="notice-content">
+            <view class="content-title">优质动态编辑指南</view>
+            <view class="content-text">
+               <view class="text-item"><text>1,</text>添加合适的话题有助于动态的展示；</view>
+               <view class="text-item"><text>2,</text>添加合适的话题有助于动态的展示；</view>
+               <view class="content-more">展开全文</view>
+            </view>
+          </view>
+        </view>
+      </view>
+    </view>
+  </view>
+</view>

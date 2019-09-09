@@ -5,19 +5,12 @@ page {
 .commentList {
   margin-top: 10rpx;
 }
-
-.flash-item {
-  padding-left: 40rpx;
-  background-color: #fff;
+.flash-item:last-child{
+   border-bottom: 2rpx solid #edeff3;
 }
-
-.flash-item:last-child {
-  border-bottom: 2rpx solid #edeff3;
-}
-
-.flash-item:last-child .message-info {
-  border-bottom: none;
-}
+.flash-item:last-child .message-info{
+  border-bottom:none;
+} 
 
 .message-info {
   padding: 38rpx 40rpx 40rpx 0;
@@ -54,6 +47,7 @@ page {
   height: 64rpx;
   margin-top: 34rpx;
   margin-right: 20rpx;
+   margin-left:40rpx;
 }
 
 .myfocusImg {

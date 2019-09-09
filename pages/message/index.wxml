@@ -1,7 +1,7 @@
 <view class="page">
   <view class="message-cate weui-flex">
     <view class="msg-wrap">
-      <view class="msg-item bg-green">
+      <view class="msg-item bg-green" bindtap="toNotice">
         <text class="iconfont icon-shiliangzhinengduixiang"></text>
       </view>
       <view class="msg-label">通知</view>
@@ -14,13 +14,13 @@
       <view class="msg-label">评论</view>
     </view>
     <view class="msg-wrap">
-      <view class="msg-item bg-yellow">
+      <view class="msg-item bg-yellow" bindtap="toCollection">
         <text class="iconfont icon-dianzan"></text>
       </view>
       <view class="msg-label">点赞收藏</view>
     </view>
     <view class="msg-wrap">
-      <view class="msg-item bg-purple">
+      <view class="msg-item bg-purple" bindtap="toNewFans">
         <text class="iconfont icon-fensi"></text>
         <view class="msg-tips single-tips">6</view>
       </view>

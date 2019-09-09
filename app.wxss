@@ -28,8 +28,9 @@ view {
 .mt-40 {
   margin-top: 40rpx !important;
 }
-.mr-40{
-  margin-right:40rpx !important;
+
+.mr-40 {
+  margin-right: 40rpx !important;
 }
 
 .mt-30 {
@@ -128,6 +129,14 @@ button.focus-btn:after, button.flash-btn:after {
   font-size: 30rpx;
   color: rgba(146, 147, 153, 1);
   line-height: 42rpx;
+}
+
+.flash-sm-text {
+  font-size: 22rpx;
+  font-family: PingFangSC;
+  font-weight: 400;
+  color: rgba(146, 147, 153, 1);
+  line-height: 32rpx;
 }
 
 /**闪火图标***/

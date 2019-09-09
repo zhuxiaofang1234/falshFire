@@ -1,0 +1,82 @@
+<view class="page">
+  <view class="page__bd">
+    <view class="commentList">
+      <view class="flash-item weui-flex">
+        <view class="myfocusImg-wrap">
+          <image class="myfocusImg" src="../../images/headImg.png"></image>
+        </view>
+        <view class="message-info weui-flex__item weui-flex">
+          <view class="user-wrap weui-flex__item">
+            <view class="userName collection-text flash-inline single-overFlow">彼岸</view>
+            <view class="collection-text flash-inline">赞了你的动态</view>
+            <view class="time flash-sm-text">刚刚</view>
+          </view>
+          <view class="commentPic-wrap">
+            <image src="../../images/01.jpg" class="myfocusImg"></image>
+          </view>
+        </view>
+      </view>
+       <view class="flash-item weui-flex">
+        <view class="myfocusImg-wrap">
+          <image class="myfocusImg" src="../../images/headImg.png"></image>
+        </view>
+        <view class="message-info weui-flex__item weui-flex">
+          <view class="user-wrap weui-flex__item">
+            <view class="userName collection-text flash-inline single-overFlow">彼岸</view>
+            <view class="collection-text flash-inline">赞了你的动态</view>
+            <view class="time flash-sm-text">刚刚</view>
+          </view>
+          <view class="commentPic-wrap">
+            <image src="../../images/01.jpg" class="myfocusImg"></image>
+          </view>
+        </view>
+      </view>
+       <view class="flash-item weui-flex">
+        <view class="myfocusImg-wrap">
+          <image class="myfocusImg" src="../../images/headImg.png"></image>
+        </view>
+        <view class="message-info weui-flex__item weui-flex">
+          <view class="user-wrap weui-flex__item">
+            <view class="userName collection-text flash-inline single-overFlow">彼岸</view>
+            <view class="collection-text flash-inline">赞了你的动态</view>
+            <view class="time flash-sm-text">刚刚</view>
+          </view>
+          <view class="commentPic-wrap">
+            <image src="../../images/01.jpg" class="myfocusImg"></image>
+          </view>
+        </view>
+      </view>
+       <view class="flash-item weui-flex">
+        <view class="myfocusImg-wrap">
+          <image class="myfocusImg" src="../../images/headImg.png"></image>
+        </view>
+        <view class="message-info weui-flex__item weui-flex">
+          <view class="user-wrap weui-flex__item">
+            <view class="userName collection-text flash-inline single-overFlow">Fevr_stin</view>
+            <view class="collection-text flash-inline">收藏了你的动态</view>
+            <view class="time flash-sm-text">05/25 12:32</view>
+          </view>
+          <view class="commentPic-wrap">
+            <image src="../../images/01.jpg" class="myfocusImg"></image>
+          </view>
+        </view>
+      </view>
+       <view class="flash-item weui-flex">
+        <view class="myfocusImg-wrap">
+          <image class="myfocusImg" src="../../images/headImg.png"></image>
+        </view>
+        <view class="message-info weui-flex__item weui-flex">
+          <view class="user-wrap weui-flex__item">
+            <view class="userName collection-text flash-inline">一年居然只能改一次昵称</view>
+            <view class="collection-text flash-inline">赞了你的动态</view>
+            <view class="time flash-sm-text">刚刚</view>
+          </view>
+          <view class="commentPic-wrap">
+            <image src="../../images/01.jpg" class="myfocusImg"></image>
+          </view>
+        </view>
+      </view>
+    </view>
+    <view class="comment_more">查看更早的消息</view>
+  </view>
+</view>
