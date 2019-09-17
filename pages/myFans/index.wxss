@@ -1,6 +1,5 @@
 /* pages/myAccount/myFocus/index.wxss */
-
-.page {
+page {
   background: #fff;
 }
 
@@ -18,8 +17,15 @@
 }
 
 .flash-wrap {
-  padding-left: 40rpx;
-  margin-top:4rpx;
+  margin-top:10rpx;
+}
+
+.flash-item:last-child {
+  border-bottom: 2rpx solid #edeff3;
+}
+
+.flash-item:last-child .myfocus-info {
+  border-bottom: none;
 }
 
 .myfocus-info {
@@ -53,6 +59,7 @@
   border-radius: 50%;
   margin-top: 34rpx;
   margin-right: 20rpx;
+  margin-left:40rpx;
 }
 
 .myfocusImg {
@@ -78,5 +85,7 @@ button.flash-btn1{
   color:rgba(46,177,175,1);
    border: 2rpx solid rgba(46,177,175,1);
 }
+
+
 
 

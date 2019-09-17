@@ -1,4 +1,5 @@
 /* pages/myAccount/index.wxss */
+@import '../../iconfont.wxss';
 
 .headImg-wrap {
   position: absolute;
@@ -53,10 +54,22 @@
 }
 
 .msg {
+  position: relative;
   width: 72rpx;
   height: 72rpx;
   border-radius: 50%;
   background: rgba(215, 216, 221, 1);
+}
+
+.account_talk_mask {
+  position: absolute;
+  top: 24rpx;
+  left: 8rpx;
+  width: 56rpx;
+  height: 56rpx;
+  background: rgba(215, 216, 221, 1);
+  border-radius: 18rpx;
+  filter: blur(10px);
 }
 
 .main-section {
@@ -116,7 +129,6 @@
   margin-top: 60rpx;
 }
 
-
 .weui-navbar_item {
   margin-right: 68rpx;
 }
@@ -142,4 +154,9 @@
   padding-top: 30px;
   overflow: hidden;
   -webkit-overflow-scrolling: touch;
+}
+
+.icon-iconjia {
+  font-size: 24rpx;
+  margin-right: 10rpx;
 }

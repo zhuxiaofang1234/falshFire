@@ -6,10 +6,14 @@
     </view>
     <view class="info-wrap flash-inline">
       <view class="focus-btn-wrap flash-inline">
-        <button class="focus-btn">关注</button>
+        <button class="focus-btn"><text class="iconfont icon-iconjia"></text><text>关注</text></button>
         <view class="btn-mask"></view>
       </view>
-      <view class="msg flash-inline"></view>
+      <view class="msg flash-inline">
+        <image src="../../images/account_talk.png" class="indexImg"></image>
+        <view class="account_talk_mask"></view>
+      </view>
+      
     </view>
   </view>
   <view class="main-section">
