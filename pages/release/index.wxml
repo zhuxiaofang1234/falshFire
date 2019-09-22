@@ -1,0 +1,88 @@
+<view class="page">
+  <view class="page__bd">
+    <view class="main-wrap">
+      <view class="weui-cell">
+        <view class="weui-cell__bd">
+          <view class="weui-uploader">
+            <view class="weui-uploader__bd clearfix">
+              <view class="weui-uploader__files" id="uploaderFiles">
+                <block wx:for="{{files}}" wx:key="*this">
+                  <view class="weui-uploader__file" bindtap="previewImage" id="{{item}}">
+                    <image class="weui-uploader__img" src="{{item}}" mode="aspectFill" />
+                  </view>
+                </block>
+                <!-- 已上传的图片列表 -->
+                <!--view class="weui-uploader__file">
+                  <image class="weui-uploader__img" src="../../images/pic_160.png" mode="aspectFill" />
+                  <view class="delImgWrap">
+                    <image src="../../images/release_delimg@2x.png" class="delImg"></image>
+                  </view>
+                </view-->
+                <!--view class="weui-uploader__file">
+                  <image class="weui-uploader__img" src="../../images/pic_160.png" mode="aspectFill" />
+                  <view class="delImgWrap">
+                    <image src="../../images/release_delimg@2x.png" class="delImg"></image>
+                  </view>
+                </view-->
+                <!--view class="weui-uploader__file">
+                  <image class="weui-uploader__img" src="../../images/pic_160.png" mode="aspectFill" />
+                  <view class="delImgWrap">
+                    <image src="../../images/release_delimg@2x.png" class="delImg"></image>
+                  </view>
+                </view-->
+                <view class="weui-uploader__file weui-uploader__file_status">
+                  <image class="weui-uploader__img" src="../../images/pic_160.png" mode="aspectFill" />
+                  <view class="weui-uploader__file-content">
+                    <icon type="warn" size="23" color="#F43530"></icon>
+                  </view>
+                </view>
+                <view class="weui-uploader__file weui-uploader__file_status">
+                  <image class="weui-uploader__img" src="../../images/pic_160.png" mode="aspectFill" />
+                  <view class="weui-uploader__file-content">50%</view>
+                </view>
+              </view>
+              <view class="weui-uploader__input-box">
+                <view class="weui-uploader__input" bindtap="chooseImage"></view>
+              </view>
+            </view>
+          </view>
+           <input type="text" placeholder="用心的标题会吸引更多人点开哦~" class="title" placeholder-class="title-text"/> 
+          <view class="section">
+            <textarea bindblur="bindTextAreaBlur" placeholder="请开始你的表白吧..." placeholder-class="flash-text" class="release-content" />
+          </view>
+          <navigator url="" class="weui-flex flash-navigator" hover-class="weui-cell_active">
+            <view class="topic">
+              <image src="../../images/release_addtopic@2x.png" class="addtopicImg flash-inline"></image>
+              <text class="flash-text flash-inline">参与话题</text>
+            </view>
+            <view class="weui-cell__bd topic-more">
+              <text class="topic-tips flash-text">有趣的话题能让更多人看到~</text>
+              <image src="../../images/public_more@2x.png" class="publicMoreImg"></image>
+            </view>
+          </navigator>
+          <navigator url="" class="weui-flex flash-navigator" hover-class="weui-cell_active">
+            <view class="topic">
+              <image src="../../images/release_address@2x.png" class="addtopicImg flash-inline"></image>
+              <text class="flash-text flash-inline">我的位置</text>
+            </view>
+            <view class="weui-cell__bd topic-more">
+              <text class="topic-tips flash-text"></text>
+              <image src="../../images/public_more@2x.png" class="publicMoreImg"></image>
+            </view>
+          </navigator>
+        </view>
+      </view>
+    </view>
+    <!-- main-wrap结束 -->
+    <view class="footer">
+      <view class="btn-container flash-inline">
+        <button class="flash-btn btn-blank" size="mini" hover-class="other-button-hover">存草稿</button>
+      </view>
+
+      <view class="btn-container flash-inline">
+        <button class="flash-btn" size="mini" hover-class="other-button-hover">发布</button>
+        <view class="flash-btn-mask"></view>
+      </view>
+    </view>
+  </view>
+</view>

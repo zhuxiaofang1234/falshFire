@@ -38,5 +38,12 @@ Page({
     wx.navigateTo({
       url: '/pages/search/index',
     })
+  },
+
+  //发布
+  toRelease:function(){
+    wx.navigateTo({
+      url: '/pages/release/index',
+    })
   }
 });

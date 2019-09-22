@@ -20,7 +20,8 @@
     "pages/notice/index",
     "pages/search/index",
     "pages/collection/index",
-    "pages/newFans/index"
+    "pages/newFans/index",
+    "pages/release/index"
   ],
   "window": {
     "backgroundTextStyle": "light",

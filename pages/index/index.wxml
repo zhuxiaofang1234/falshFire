@@ -99,5 +99,9 @@
       </view>
     </view>
   </view>
-  <view></view>
+    <view class="releaseBtn" bindtap="toRelease">
+      <image src="../../images/index_releasebtn@2x.png" class="releaseImg"></image>
+      <view class="releaseBtn-mask"></view> 
+    </view>
+  
 </view>
