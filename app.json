@@ -21,7 +21,10 @@
     "pages/search/index",
     "pages/collection/index",
     "pages/newFans/index",
-    "pages/release/index"
+    "pages/release/index",
+    "pages/choiceTopic/index",
+    "pages/choiceLocation/index"
+
   ],
   "window": {
     "backgroundTextStyle": "light",

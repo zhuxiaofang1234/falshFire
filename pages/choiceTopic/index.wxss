@@ -1,0 +1,90 @@
+@import '../../iconfont.wxss';
+
+page {
+  background: #fff;
+}
+
+.content-wrap {
+  padding: 0 32rpx;
+}
+
+.search_form {
+  padding: 8rpx 0;
+}
+
+.search-bar-box {
+  position: relative;
+  padding-left: 30px;
+  width: 100%;
+  margin-right: 36rpx;
+  box-sizing: border-box;
+  z-index: 1;
+  height: 64rpx;
+  background: rgba(243, 244, 245, 1);
+  border-radius: 32rpx;
+  border: 1px solid rgba(249, 250, 249, 1);
+}
+
+.icon-sousuo {
+  position: absolute;
+  left: 10px;
+  top: 9px;
+}
+
+.search_btn {
+  width: 56rpx;
+  font-size: 28rpx;
+  padding-top: 16rpx;
+}
+
+.search-bar_input {
+  height: 100%;
+  font-size: 28rpx;
+  color: rgba(48, 49, 49, 1);
+}
+
+/***搜索内容**/
+.search-content{
+  padding-left:32rpx;
+}
+.search-item:first-child{
+  border-top:1px solid #EDEFF3;
+}
+.search-item{
+  height:100rpx;
+  line-height:100rpx;
+  font-size:30rpx;
+  font-family:PingFangSC-Medium,PingFang SC;
+  font-weight:500;
+  color:rgba(48,49,49,1);
+  border-bottom:1px solid #EDEFF3;
+}
+
+.discussNum{
+  height:36rpx;
+  line-height:36rpx;
+  border-radius:18rpx;
+  padding:0 10rpx;
+  font-size:20rpx;
+  font-family:PingFangSC-Regular,PingFang SC;
+  font-weight:400;
+  color:rgba(146,147,153,1);
+  background:rgba(237,239,242,1);
+}
+
+.icon-icon-forbid {
+  font-size:12px;
+}
+.takeNumIcon{
+  width:19rpx;
+  height:19rpx;
+  margin-right:2rpx;
+
+}
+
+.topicContent{
+  margin-left:8rpx;
+  margin-right:20rpx;
+}
+
+

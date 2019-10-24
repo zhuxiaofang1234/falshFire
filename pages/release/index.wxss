@@ -53,13 +53,9 @@ page {
   display: inline-block;
 }
 
-.title-section {
- 
-}
-
 .title {
-  padding:24rpx 0;
-  width:100%;
+  padding: 24rpx 0;
+  width: 100%;
   font-size: 32rpx;
   font-family: PingFangSC-Regular, PingFangSC;
   font-weight: 400;
@@ -80,6 +76,11 @@ page {
   padding: 20rpx 0;
   border-top: 2rpx solid #edeff3;
   border-bottom: 2rpx solid #edeff3;
+  font-size: 28rpx;
+  font-family: PingFangSC-Regular, PingFangSC;
+  font-weight: 400;
+  color: rgba(48, 49, 49, 1);
+  line-height: 44rpx;
 }
 
 .flash-navigator {
@@ -117,12 +118,12 @@ page {
 
 .footer {
   margin-top: 26rpx;
-  margin-bottom: 162rpx;
   text-align: right;
 }
 
 .btn-container {
   position: relative;
+  margin-bottom: 162rpx;
   margin-right: 40rpx;
 }
 
@@ -133,4 +134,21 @@ page {
   font-family: PingFangSC-Medium, PingFangSC;
   font-weight: 500;
   color: rgba(146, 147, 153, 1);
+}
+
+.chosedTopic {
+  padding:4rpx 16rpx;
+  background: rgba(255, 255, 255, 1);
+  border-radius: 20rpx;
+  border: 1px solid rgba(46, 177, 175, 1);
+  font-size: 24rpx;
+  font-family: PingFangSC-Regular, PingFangSC;
+  font-weight: 400;
+  color: rgba(46, 177, 175, 1);
+  line-height: 34rpx;
+}
+
+.mySite{
+  font-size:28rpx;
+  color:rgba(48,49,49,1);
 }

@@ -1,0 +1,42 @@
+<view class="page">
+  <view class="page__bd content-wrap">
+    <view class="search_form weui-flex">
+      <view class="search-bar-box weui-flex__item">
+        <icon class="iconfont icon-sousuo" size="14"></icon>
+        <input type="text" class="search-bar_input" placeholder="搜索位置"></input>
+      </view>
+      <view class="search_btn">搜索</view>
+    </view>
+    <!--搜索-->
+  </view>
+  <view class="search-content">
+    <view class="search-item">
+      <icon class="iconfont icon-icon-forbid flash-inline"></icon>
+      <text class="topicContent flash-inline">不显示我的位置</text>
+    </view>
+    <view class="search-item location-item">
+      <view class="location">深圳湾科技生态园11栋B座</view>
+      <view class="location-details">广东省深圳市南山区科技园路与高新九道交叉口东北100米</view>
+    </view>
+     <view class="search-item location-item">
+      <view class="location">深圳湾科技生态园11栋B座</view>
+      <view class="location-details">广东省深圳市南山区科技园路与高新九道交叉口东北100米</view>
+    </view>
+     <view class="search-item location-item">
+      <view class="location">深圳湾科技生态园11栋B座</view>
+      <view class="location-details">广东省深圳市南山区科技园路与高新九道交叉口东北100米</view>
+    </view>
+     <view class="search-item location-item">
+      <view class="location">深圳湾科技生态园11栋B座</view>
+      <view class="location-details">广东省深圳市南山区科技园路与高新九道交叉口东北100米</view>
+    </view>
+     <view class="search-item location-item">
+      <view class="location">深圳湾科技生态园11栋B座</view>
+      <view class="location-details">广东省深圳市南山区科技园路与高新九道交叉口东北100米</view>
+    </view>
+     <view class="search-item location-item">
+      <view class="location">深圳湾科技生态园11栋B座</view>
+      <view class="location-details">广东省深圳市南山区科技园路与高新九道交叉口东北100米</view>
+    </view>
+  </view>
+</view>

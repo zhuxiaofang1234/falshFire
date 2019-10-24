@@ -50,23 +50,24 @@
           <view class="section">
             <textarea bindblur="bindTextAreaBlur" placeholder="请开始你的表白吧..." placeholder-class="flash-text" class="release-content" />
           </view>
-          <navigator url="" class="weui-flex flash-navigator" hover-class="weui-cell_active">
+          <navigator url="/pages/choiceTopic/index" class="weui-flex flash-navigator" hover-class="weui-cell_active">
             <view class="topic">
               <image src="../../images/release_addtopic@2x.png" class="addtopicImg flash-inline"></image>
               <text class="flash-text flash-inline">参与话题</text>
             </view>
             <view class="weui-cell__bd topic-more">
-              <text class="topic-tips flash-text">有趣的话题能让更多人看到~</text>
+              <!--text class="topic-tips flash-text">有趣的话题能让更多人看到~</text-->
+              <text class="chosedTopic"># 端午冷门海岛旅游攻略</text>
               <image src="../../images/public_more@2x.png" class="publicMoreImg"></image>
             </view>
           </navigator>
-          <navigator url="" class="weui-flex flash-navigator" hover-class="weui-cell_active">
+          <navigator url="/pages/choiceLocation/index" class="weui-flex flash-navigator" hover-class="weui-cell_active">
             <view class="topic">
               <image src="../../images/release_address@2x.png" class="addtopicImg flash-inline"></image>
               <text class="flash-text flash-inline">我的位置</text>
             </view>
             <view class="weui-cell__bd topic-more">
-              <text class="topic-tips flash-text"></text>
+              <text class="mySite flash-text">上海市闵行区东川路万达广场</text>
               <image src="../../images/public_more@2x.png" class="publicMoreImg"></image>
             </view>
           </navigator>
